@@ -34,7 +34,6 @@ metadata:
   name: go-web-service
   namespace: team-blue-dev
 spec:
-  type: NodePort
   selector:
     app: go-web
   ports:
